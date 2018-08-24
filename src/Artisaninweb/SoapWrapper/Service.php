@@ -314,7 +314,7 @@ class Service
    */
   public function getCookies()
   {
-    return $this->client->__cookies;
+    return $this->client->_cookies;
   }
 
   /**
